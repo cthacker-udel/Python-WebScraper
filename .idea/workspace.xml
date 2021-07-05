@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6e0ba134-cb8d-4387-a5d5-dfcf056b5e8a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/remoteCoScraper.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/githubscraper.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -37,7 +37,29 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
-  <component name="RunManager" selected="Python.remoteCoScraper">
+  <component name="RunManager" selected="Python.githubscraper">
+    <configuration name="githubscraper" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="PythonWebScraper2" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/githubscraper.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PythonWebScraper2" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -84,6 +106,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.githubscraper" />
         <item itemvalue="Python.remoteCoScraper" />
         <item itemvalue="Python.main" />
       </list>
@@ -99,7 +122,8 @@
       <updated>1625376981339</updated>
       <workItem from="1625376984284" duration="1170000" />
       <workItem from="1625393425237" duration="170000" />
-      <workItem from="1625393614576" duration="4760000" />
+      <workItem from="1625393614576" duration="5014000" />
+      <workItem from="1625466129799" duration="339000" />
     </task>
     <task id="LOCAL-00001" summary="Added first webscraper for static web page">
       <created>1625393750843</created>
@@ -122,7 +146,14 @@
       <option name="project" value="LOCAL" />
       <updated>1625396853105</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Added webscraper for remote.co website">
+      <created>1625398643115</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1625398643115</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -146,10 +177,12 @@
     <MESSAGE value="Added first webscraper for static web page" />
     <MESSAGE value="Added more advanced webscraper filtering through the html content" />
     <MESSAGE value="Implemented beautiful soup to scrape the website for job information, role, name, logo link, time of posting, location, and link to apply, via automation" />
-    <option name="LAST_COMMIT_MESSAGE" value="Implemented beautiful soup to scrape the website for job information, role, name, logo link, time of posting, location, and link to apply, via automation" />
+    <MESSAGE value="Added webscraper for remote.co website" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added webscraper for remote.co website" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/PythonWebScraper2$main.coverage" NAME="main Coverage Results" MODIFIED="1625396959566" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/PythonWebScraper2$remoteCoScraper.coverage" NAME="remoteCoScraper Coverage Results" MODIFIED="1625398308520" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/PythonWebScraper2$remoteCoScraper.coverage" NAME="remoteCoScraper Coverage Results" MODIFIED="1625466286840" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/PythonWebScraper2$githubscraper.coverage" NAME="githubscraper Coverage Results" MODIFIED="1625466445384" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
