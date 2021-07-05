@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6e0ba134-cb8d-4387-a5d5-dfcf056b5e8a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/GithubLanguageScraper.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/githubscraper.py" beforeDir="false" afterPath="$PROJECT_DIR$/githubscraper.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GithubLanguageScraper.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/GithubLanguageScraper.ipynb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -145,7 +144,7 @@
       <workItem from="1625376984284" duration="1170000" />
       <workItem from="1625393425237" duration="170000" />
       <workItem from="1625393614576" duration="5014000" />
-      <workItem from="1625466129799" duration="6488000" />
+      <workItem from="1625466129799" duration="7573000" />
     </task>
     <task id="LOCAL-00001" summary="Added first webscraper for static web page">
       <created>1625393750843</created>
@@ -182,7 +181,14 @@
       <option name="project" value="LOCAL" />
       <updated>1625466721334</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Added github scraper code, and also added ipynb file">
+      <created>1625473068397</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1625473068397</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -208,7 +214,8 @@
     <MESSAGE value="Implemented beautiful soup to scrape the website for job information, role, name, logo link, time of posting, location, and link to apply, via automation" />
     <MESSAGE value="Added webscraper for remote.co website" />
     <MESSAGE value="added github scraper" />
-    <option name="LAST_COMMIT_MESSAGE" value="added github scraper" />
+    <MESSAGE value="Added github scraper code, and also added ipynb file" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added github scraper code, and also added ipynb file" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/PythonWebScraper2$main.coverage" NAME="main Coverage Results" MODIFIED="1625396959566" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
