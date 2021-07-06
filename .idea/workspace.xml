@@ -142,7 +142,7 @@
       <workItem from="1625393425237" duration="170000" />
       <workItem from="1625393614576" duration="5014000" />
       <workItem from="1625466129799" duration="8340000" />
-      <workItem from="1625565694855" duration="4112000" />
+      <workItem from="1625565694855" duration="4793000" />
     </task>
     <task id="LOCAL-00001" summary="Added first webscraper for static web page">
       <created>1625393750843</created>
@@ -200,7 +200,14 @@
       <option name="project" value="LOCAL" />
       <updated>1625569905035</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Updated GithubLanguageScraper.ipynb file">
+      <created>1625569995862</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1625569995862</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -229,7 +236,8 @@
     <MESSAGE value="Added github scraper code, and also added ipynb file" />
     <MESSAGE value="Added code to GithubLanguageScraper.ipynb file" />
     <MESSAGE value="Updated GithubLanguageScraper.ipynb file and fixed bug in githubscraper.py file" />
-    <option name="LAST_COMMIT_MESSAGE" value="Updated GithubLanguageScraper.ipynb file and fixed bug in githubscraper.py file" />
+    <MESSAGE value="Updated GithubLanguageScraper.ipynb file" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated GithubLanguageScraper.ipynb file" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
