@@ -46,9 +46,13 @@ def main():
             soup = BeautifulSoup(orig_page_source, "html.parser")
         else:
             br.get(next_link)
-            time.sleep(2)
+            print('going to next page')
+            time.sleep(5)
             next_page_source = br.page_source
+            #print(br.current_url)
+            #print(br.page_source)
             soup = BeautifulSoup(next_page_source,'html.parser')
+            repo_links = []
 
 
         #soup = BeautifulSoup(orig_page_source,"html.parser")
@@ -70,6 +74,7 @@ def main():
                 continue
 
         for eachrepolink in repo_links:
+            print('repolink : {}'.format(eachrepolink))
             br.get(base_url + eachrepolink)
             time.sleep(1)
             repo_page_source = br.page_source
