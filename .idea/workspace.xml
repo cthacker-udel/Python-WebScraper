@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6e0ba134-cb8d-4387-a5d5-dfcf056b5e8a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GithubLanguageScraper.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/GithubLanguageScraper.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/githubscraper.py" beforeDir="false" afterPath="$PROJECT_DIR$/githubscraper.py" afterDir="false" />
-    </list>
+    <list default="true" id="6e0ba134-cb8d-4387-a5d5-dfcf056b5e8a" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -52,7 +48,7 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.notebooks.jupyter.connections.configuration.JupyterServerConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -146,7 +142,7 @@
       <workItem from="1625393425237" duration="170000" />
       <workItem from="1625393614576" duration="5014000" />
       <workItem from="1625466129799" duration="8340000" />
-      <workItem from="1625565694855" duration="4048000" />
+      <workItem from="1625565694855" duration="4112000" />
     </task>
     <task id="LOCAL-00001" summary="Added first webscraper for static web page">
       <created>1625393750843</created>
@@ -197,7 +193,14 @@
       <option name="project" value="LOCAL" />
       <updated>1625473877631</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Updated GithubLanguageScraper.ipynb file and fixed bug in githubscraper.py file">
+      <created>1625569905035</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1625569905035</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -225,7 +228,8 @@
     <MESSAGE value="added github scraper" />
     <MESSAGE value="Added github scraper code, and also added ipynb file" />
     <MESSAGE value="Added code to GithubLanguageScraper.ipynb file" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added code to GithubLanguageScraper.ipynb file" />
+    <MESSAGE value="Updated GithubLanguageScraper.ipynb file and fixed bug in githubscraper.py file" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated GithubLanguageScraper.ipynb file and fixed bug in githubscraper.py file" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
