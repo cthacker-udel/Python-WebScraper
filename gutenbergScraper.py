@@ -47,20 +47,23 @@ def main():
                 book_name = book_soup.h1.string
                 text_link = book_soup.find_all('a')
                 for eachtextlink in text_link:
-                    pprint('The link : {}'.format(eachtextlink))
+                    #pprint('The link : {}'.format(eachtextlink))
                     try:
                         if eachtextlink['type'].lower() == 'text/plain; charset=utf-8':
                             ## found link for utf book
                             br.get(base_url + eachtextlink['href'])
+                            time.sleep(2)
                             book_text_soup = BeautifulSoup(br.page_source)
                             book_string = book_text.pre.string
                             license_index = book_string.find('*** END OF THIS PROJECT')
                             start_index = book_string.find('Gutenberg')
                             formatted_string = book_string[start_index+9:license_index]
                             book_text[book_name] = formatted_string.strip()
-                            return 0
                     except Exception as e:
                         continue
+                time.sleep(2)
+                pprint(book_text)
+                return 0
 
 
 
