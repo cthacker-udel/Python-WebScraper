@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6e0ba134-cb8d-4387-a5d5-dfcf056b5e8a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/imsdbScraper.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gutenbergScraper.py" beforeDir="false" afterPath="$PROJECT_DIR$/gutenbergScraper.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,7 +58,7 @@
       <recent name="C:\Users\flyin\PycharmProjects\PythonWebScraper2" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.gutenbergScraper">
+  <component name="RunManager" selected="Python.imsdbScraper">
     <configuration name="githubscraper" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PythonWebScraper2" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -95,6 +95,28 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/gutenbergScraper.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="imsdbScraper" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="PythonWebScraper2" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/imsdbScraper.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -149,6 +171,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.imsdbScraper" />
         <item itemvalue="Python.gutenbergScraper" />
         <item itemvalue="Python.githubscraper" />
         <item itemvalue="Python.remoteCoScraper" />
@@ -169,7 +192,7 @@
       <workItem from="1625393614576" duration="5014000" />
       <workItem from="1625466129799" duration="8340000" />
       <workItem from="1625565694855" duration="7757000" />
-      <workItem from="1625642074097" duration="329000" />
+      <workItem from="1625642074097" duration="2265000" />
     </task>
     <task id="LOCAL-00001" summary="Added first webscraper for static web page">
       <created>1625393750843</created>
@@ -255,7 +278,14 @@
       <option name="project" value="LOCAL" />
       <updated>1625573851605</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Added dictionary to store each book's text, and reduced the amount of calls to reduce overhead server usage on Gutenberg's server">
+      <created>1625642649405</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1625642649405</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -288,7 +318,8 @@
     <MESSAGE value="Added imports and base function for gutenbergScraper.py" />
     <MESSAGE value="Update" />
     <MESSAGE value="Added gutenbergScraper.py implementation for all books" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added gutenbergScraper.py implementation for all books" />
+    <MESSAGE value="Added dictionary to store each book's text, and reduced the amount of calls to reduce overhead server usage on Gutenberg's server" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added dictionary to store each book's text, and reduced the amount of calls to reduce overhead server usage on Gutenberg's server" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -318,13 +349,19 @@
           <line>53</line>
           <option name="timeStamp" value="7" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/imsdbScraper.py</url>
+          <line>48</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/PythonWebScraper2$gutenbergScraper.coverage" NAME="gutenbergScraper Coverage Results" MODIFIED="1625642266613" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/PythonWebScraper2$gutenbergScraper.coverage" NAME="gutenbergScraper Coverage Results" MODIFIED="1625643550289" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/PythonWebScraper2$main.coverage" NAME="main Coverage Results" MODIFIED="1625396959566" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/PythonWebScraper2$remoteCoScraper.coverage" NAME="remoteCoScraper Coverage Results" MODIFIED="1625466286840" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/PythonWebScraper2$githubscraper.coverage" NAME="githubscraper Coverage Results" MODIFIED="1625571920327" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/PythonWebScraper2$imsdbScraper.coverage" NAME="imsdbScraper Coverage Results" MODIFIED="1625644338412" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
