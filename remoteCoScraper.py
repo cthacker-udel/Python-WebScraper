@@ -12,12 +12,21 @@ def main():
 
     #the_main_class = soup.find("body",class_="home blog remote-co").main.find("div",class_="container pt-4").find("div",class_="row").find("div",class_="col").find_all("div",class_="card bg-light mb-3").find("div")
 
-    the_main_class = soup.main.find("div",class_="container pt-4").find_all("div",class_="card bg-light mb-3")[1].find("div",class_="card-body").find_all("div",class_="card-deck")#
+    the_main_class = soup.main.find("div",class_="container pt-4").find_all("div",class_="card bg-light mb-3")[1].find("div",class_="card-body").find_all('h6')#
 
-    for eachmarker in the_main_class:
-        each_card = eachmarker.find_all('div',class_='card')
-        for each_job in each_card:
-            print(each_job.img['alt'])
+    #pprint(the_main_class)
+
+    jobs = []
+
+    for eachheader in the_main_class:
+        jobs.append(eachheader.string)
+
+    pprint(jobs)
+
+    #for eachmarker in the_main_class:
+    #    each_card = eachmarker.find_all('div',class_='card')
+    #    for each_job in each_card:
+    #        print(each_job.img['alt'])
         #for each_entry in each_card:
         #    each_job = each_entry.find('div',class_='card-body').img['alt']
         #    print(each_job)
