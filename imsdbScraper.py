@@ -40,7 +40,7 @@ def main():
     genre_links = []
     for eachlink in all_first_soup_links:
         try:
-            pprint(eachlink.attrs)
+            #pprint(eachlink.attrs)
             if 'genre' in eachlink['href']:
                 genre_links.append(eachlink['href'])
         except Exception as e:
@@ -53,11 +53,23 @@ def main():
         all_links = page_soup.find_all('p')
         for eachp in all_links:
             script_page_locations.append(eachp.contents[0]['href'])
+        #time.sleep(5)
+    script_text_links = []
     for eachlink in script_page_locations:
         br.get(base_url + eachlink)
-        all_page_links = BeautifulSoup(br.page_source,'html.parser')
-        for eachlink2 in all_page_links:
-            if 'scripts' in eachlink2.lower():
+        all_page_links = BeautifulSoup(br.page_source,'html.parser').find_all('a')
+        for eachlink in all_page_links:
+            if eachlink.string != None and 'Read' in eachlink.string:
+                script_text_links.append(eachlink['href'])
+    all_movie_text = []
+    for eachscripttextlink in script_text_links:
+        br.get(base_url + eachscripttextlink)
+        script_soup = BeautifulSoup(br.page_source)
+        all_movie_text.append(script_soup.find('pre').string)
+    pprint("Text = {}".format(all_movie_text))
+
+
+
 
 
 
